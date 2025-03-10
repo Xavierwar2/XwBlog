@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
+  title: Xavierwar's Blog
   # Site subtitle
-  subtitle: Redefine Your Hexo Journey.
+  subtitle:
   # Author name
-  author: The Redefine Team
+  author: Xavierwar
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://www.xavierwar.top
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  favicon: /images/logo.svg
   # Site logo
-  logo: 
+  logo: /images/logo.svg
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/avatar.jpg
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -63,8 +63,8 @@ global:
     # Custom title fonts (navbar, sidebar)
     title:
       enable: false # Whether to enable custom title fonts
-      family:  # Font family
-      url:  # Font URL to CSS file
+      family: DOUYU Font # Font family
+      url: https://chinese-fonts-cdn.deno.dev/packages/dyzgt/dist/斗鱼追光体/result.css # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -128,10 +128,16 @@ home_banner:
     light: /images/wallhaven-wqery6-light.webp # light mode
     dark: /images/wallhaven-wqery6-dark.webp # dark mode
   # Home banner title
-  title: Theme Redefine
+  title: Xavierwar
   # Home banner subtitle
   subtitle:
-    text: [] # subtitle text, array
+    text: ["Code is poetry.",
+    "Simplicity is the soul of efficiency.",
+    "Debug less, design more.",
+    "The best code is no code.",
+    "Every line of code is a story.",
+    "The art of programming is the art of organization.",
+    ] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -170,7 +176,7 @@ home_banner:
     style: default # default, reverse, center
     # Social links
     links:
-      github:  # your GitHub URL
+      github: https://github.com/Xavierwar2 # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
@@ -202,19 +208,18 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    # Archives: 
-    #   path: /archives 
-    #   icon: fa-regular fa-archive # can be empty
+    Archives: 
+      path: /archives 
+      icon: fa-regular fa-archive # can be empty
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
-    # About: 
-    #   icon: fa-regular fa-user
-    #   submenus:
-    #     Me: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
+    About: 
+      icon: fa-regular fa-user
+      submenus:
+        # Me: /about
+        Github: https://github.com/Xavierwar2
+        # Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
@@ -241,7 +246,7 @@ home:
     first_item: menu # First item in sidebar. menu, info
     announcement: # Announcement text
     show_on_mobile: true # Whether to show sidebar navigation on mobile sheet menu
-    links:
+    # links:
       # Archives: 
       #   path: /archives 
       #   icon: fa-regular fa-archive # can be empty
@@ -393,7 +398,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2024/6/5 11:45:14
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
