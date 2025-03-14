@@ -41,7 +41,7 @@ colors:
   # Secondary color (TBD)
   secondary:
   # Default theme mode initial value (will be overwritten by prefer-color-scheme)
-  default_mode: light # light, dark
+  default_mode: dark # light, dark
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -125,17 +125,17 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/light-background.jpg # light mode
+    light: /images/light-background.png # light mode
     dark: /images/dark-background.png # dark mode
   # Home banner title
   title: Xavierwar
   # Home banner subtitle
   subtitle:
     text: ["Code is poetry.",
-    "Simplicity is the soul of efficiency.",
     "Debug less, design more.",
     "The best code is no code.",
     "Every line of code is a story.",
+    "Simplicity is the soul of efficiency.",
     "The art of programming is the art of organization.",
     ] # subtitle text, array
     hitokoto:  # 一言配置
@@ -150,7 +150,7 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#000" # light mode
+    light: "#fff" # light mode
     dark: "#d1d1b6" # dark mode
   # Specific style of the text
   text_style: 
@@ -181,6 +181,7 @@ home_banner:
       zhihu: # your ZhiHu URL
       twitter: https://x.com/xavierwar4 # your twitter URL
       email: 28038329@qq.com # your email
+      bilibili: https://space.bilibili.com/215544642?spm_id_from=333.1007.0.0
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -223,11 +224,11 @@ navbar:
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
-    About: 
-      icon: fa-regular fa-user
-      submenus:
+    # About: 
+    #   icon: fa-regular fa-user
+    #   submenus:
         # Me: /about
-        Github: https://github.com/Xavierwar2
+        # Github: https://github.com/Xavierwar2
         # Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
