@@ -1,0 +1,8 @@
+- links_category: 博客
+  has_thumbnail: false
+  list:
+      - name: 叁七のblog
+        link: https://sanqi-normal.github.io/
+        description: 叁七的个人博客
+        avatar: /images/叁七.png
+ 

@@ -125,8 +125,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/background.png # light mode
-    dark: /images/background.png # dark mode
+    light: /images/light-background.jpg # light mode
+    dark: /images/dark-background.png # dark mode
   # Home banner title
   title: Xavierwar
   # Home banner subtitle
@@ -150,7 +150,7 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#fff" # light mode
+    light: "#000" # light mode
     dark: "#d1d1b6" # dark mode
   # Specific style of the text
   text_style: 
@@ -171,16 +171,16 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
       github: https://github.com/Xavierwar2 # your GitHub URL
       instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
-      twitter:  # your twitter URL
-      email:  # your email
+      zhihu: # your ZhiHu URL
+      twitter: https://x.com/xavierwar4 # your twitter URL
+      email: 28038329@qq.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -197,8 +197,8 @@ navbar:
   # Navbar background color
   color:
     left: "#f78736" #left side 
-    right: "#367df7"  #right side
-    transparency: 35 #percent (10-99)
+    right: "#99c2eb"  #right side
+    transparency: 70 #percent (10-99)
   # Navbar width (usually no need to modify)
   width:
     home: 1500px #home page
@@ -211,6 +211,15 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
+    Categories:
+      path: /categories
+      icon: fa-regular fa-folder
+    Tags:
+      path: /tags
+      icon: fa-regular fa-tags
+    Friends:
+      path: /links
+      icon: fa-solid fa-link
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
@@ -356,7 +365,7 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      serverUrl: https://xavierwar-comment.netlify.app/.netlify/functions/comment # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
